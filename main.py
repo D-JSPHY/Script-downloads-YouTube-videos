@@ -24,7 +24,7 @@ def descargar_video(link):
 
 from googleapiclient.discovery import build
 
-api_key = 'AIzaSyDGUzY0U1FqFh5-D8TqERyKeogkMhPrPmE'
+api_key = 'Your_credentials'
 
 # Crea un servicio de la API de YouTube
 youtube = build('youtube', 'v3', developerKey=api_key)
